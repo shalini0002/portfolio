@@ -3,11 +3,16 @@
 
 //utilities
 @import "../scss/utilities/variables",
-"../scss/utilities/mixins";
+"../scss/utilities/mixins",
+"../scss/utilities/functions";
 
 //base
 @import"../scss/base/global",
  "../scss/base/typography";
 
  //
- @import "../scss/components/navbar"
+ @import "../scss/components/navbar",
+ "../scss/components/banner",
+ "../scss/components/skills",
+ "../scss/components/projects",
+ "../scss/components/footer"

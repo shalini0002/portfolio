@@ -1,0 +1,48 @@
+.skill{
+    padding: 0 0 50px 0;
+    position: relative;
+    h2{
+        font-size: 45px;
+        line-height: 51px;
+        font-weight: 700;
+
+    }
+    p{
+        color: $color-light-grey;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+        margin:14px 0 75px 0;
+    }
+
+}
+
+.skill-box{
+    background:#151515;
+    border-radius:64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+}
+.skill-slider{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    .item{
+        img{
+            width: 50%;
+            margin: 0 auto 15px auto;
+        }
+    }
+}
+.background-image{
+    position: absolute;
+    top:28%;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+}
